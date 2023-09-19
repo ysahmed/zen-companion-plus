@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="number_picker_style">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">250dp</item>
+
+        <item name="np_min">0</item>
+        <item name="np_textSize">50sp</item>
+        <item name="np_selectedTextSize">50sp</item>
+
+        <item name="np_dividerThickness">0dp</item>
+        <item name="np_dividerLength">0dp</item>
+        <item name="np_accessibilityDescriptionEnabled">false</item>
+        <item name="np_fadingEdgeEnabled">true</item>
+        <item name="np_fadingEdgeStrength">1.0</item>
+        <item name="np_formatter">%02d</item>
+
+
+        <item name="android:layout_marginTop">24dp</item>
+
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+
+</resources>
